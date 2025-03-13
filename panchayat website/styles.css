@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    background-color: rgba(76, 152, 175, 0.9);
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.himachal-symbol {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style

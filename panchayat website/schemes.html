@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Schemes - Gram Panchayat Dhajag</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="hp symbol.png" alt="Himachal Pradesh Symbol" class="himachal-symbol">
+            <h1>Gram Panchayat Dhajag</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="members.html">Members</a></li>
+                <li><a href="documents.html">Documents</a></li>
+                <li><a href="complaints.html">Complaints</a></li>
+                <li><a href="schemes.html">Schemes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="schemes">
+            <h2>New Schemes</h2>
+            <p>Stay updated with the latest schemes introduced by the Gram Panchayat Dhajag. The results of the people selected for these schemes according to their needs will also be published here.</p>
+            <form id="scheme-form">
+                <label for="scheme-name">Name:</label>
+                <input type="text" id="scheme-name" name="scheme-name" required>
+                <label for="scheme-email">Email:</label>
+                <input type="email" id="scheme-email" name="scheme-email" required>
+                <label for="scheme-details">Scheme Details:</label>
+                <textarea id="scheme-details" name="scheme-details" required></textarea>
+                <button type="submit">Publish Scheme</button>
+            </form>
+            <h3>Published Schemes</h3>
+            <ul id="scheme-list">
+                <!-- List of published schemes will be dynamically added here -->
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Gram Panchayat Dhajag. All rights reserved. Pin Code: 177103</p>
+        <p>Website designed by Suraj Sharma | Phone: 7807038815</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
